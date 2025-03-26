@@ -10,7 +10,8 @@ a {
 }
 
 button {
-  width: 50px;
+  width: 60px;
+  height: 30px;
   color: white;
   border-radius: 5px;
   background-color: aqua;
@@ -45,8 +46,11 @@ ul {
 .toplink ul {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
-
+.toplink ul li{
+  padding-left: 10px;
+}
 .leaf,
 .tree {
   height: 30px;
